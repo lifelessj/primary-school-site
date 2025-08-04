@@ -11,10 +11,12 @@ import { Footer } from "@/components/Footer";
 
 export default function Admissions() {
     const fees = [
-        { class: "P.1 - P.2", dayFee: "400,000", boardingFee: "800,000" },
-        { class: "P.3 - P.4", dayFee: "450,000", boardingFee: "850,000" },
-        { class: "P.5 - P.6", dayFee: "500,000", boardingFee: "900,000" },
-        { class: "P.7", dayFee: "550,000", boardingFee: "950,000" }
+        { class: "Nursery", dayFee: "500,000-600,000", boardingFee: "850,000" },
+        { class: "P.1 - P.4", dayFee: "600,000", boardingFee: "900,000" },
+        { class: "P.5 - P.6", dayFee: "700,000", boardingFee: "1,000,000" },
+        { class: "P.7", boardingFee: "1,100,000" },
+        { class: "Computer Lessons", Fee: "30,000" },
+        { class: "Swimming Lessons", Fee: "50,000" }
     ];
 
     const requirements = [
@@ -158,12 +160,8 @@ export default function Admissions() {
                                                 <span className="font-medium">UGX 50,000 (one-time)</span>
                                             </div>
                                             <div className="flex justify-between">
-                                                <span>Development Fee:</span>
-                                                <span className="font-medium">UGX 100,000 (annual)</span>
-                                            </div>
-                                            <div className="flex justify-between">
                                                 <span>Uniform & Books:</span>
-                                                <span className="font-medium">UGX 150,000 (estimate)</span>
+                                                <span className="font-medium">UGX 150,000-340,000 (estimate)</span>
                                             </div>
                                         </div>
                                     </div>
@@ -251,7 +249,7 @@ export default function Admissions() {
                                         <div>
                                             <div className="font-semibold">School Address</div>
                                             <div className="text-muted-foreground">
-                                                Nkumba Road, Entebbe<br />
+                                                lyamutundwe, Mpala-Entebbe<br />
                                                 Wakiso District, Uganda
                                             </div>
                                         </div>
@@ -261,7 +259,8 @@ export default function Admissions() {
                                         <Phone className="h-5 w-5 text-primary" />
                                         <div>
                                             <div className="font-semibold">Phone</div>
-                                            <div className="text-muted-foreground">+256 700 123 456</div>
+                                            <div className="text-muted-foreground">+256 702 997 656</div>
+                                            <div className="text-muted-foreground">+256 772 327 842</div>
                                         </div>
                                     </div>
 
@@ -269,7 +268,7 @@ export default function Admissions() {
                                         <Mail className="h-5 w-5 text-primary" />
                                         <div>
                                             <div className="font-semibold">Email</div>
-                                            <div className="text-muted-foreground">admissions@stjamesnkumba.ac.ug</div>
+                                            <div className="text-muted-foreground">stjamesnkumba@gmail.com</div>
                                         </div>
                                     </div>
                                 </CardContent>
@@ -286,7 +285,7 @@ export default function Admissions() {
                                     <div className="space-y-3">
                                         <div>
                                             <div className="font-semibold text-primary">Term 1 Intake</div>
-                                            <div className="text-sm text-muted-foreground">Applications: October - December</div>
+                                            <div className="text-sm text-muted-foreground">Applications: October - January</div>
                                             <div className="text-sm text-muted-foreground">Start Date: January</div>
                                         </div>
                                         <div>

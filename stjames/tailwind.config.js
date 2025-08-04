@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+// import { Config } from "tailwindcss"; // Not needed in JS, so removed
 
 export default {
     darkMode: ["class"],
@@ -101,4 +101,4 @@ export default {
         }
     },
     plugins: [require("tailwindcss-animate")],
-} satisfies Config;
+};

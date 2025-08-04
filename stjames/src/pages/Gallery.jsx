@@ -9,20 +9,20 @@ export default function Gallery() {
     const albums = [
         {
             id: 1,
-            title: "Annual Sports Day 2024",
+            title: "Annual Sports Day",
             description: "Exciting athletic competitions and team spirit",
             imageCount: 45,
-            date: "March 2024",
+            date: "coming soon",
             featured: true,
             category: "Sports",
             icon: Trophy
         },
         {
             id: 2,
-            title: "Graduation Ceremony 2023",
-            description: "Celebrating our P.7 graduates and their achievements",
+            title: "Blessing Ceremony",
+            description: "Blessing our Primary 7 candidates",
             imageCount: 32,
-            date: "December 2023",
+            date: "TBC",
             featured: true,
             category: "Academic",
             icon: BookOpen
@@ -39,10 +39,10 @@ export default function Gallery() {
         },
         {
             id: 4,
-            title: "Science Fair 2024",
+            title: "Exhibition of Student Projects",
             description: "Students showcasing their innovative projects",
             imageCount: 24,
-            date: "February 2024",
+            date: "TBC",
             featured: false,
             category: "Academic",
             icon: BookOpen
@@ -50,26 +50,26 @@ export default function Gallery() {
         {
             id: 5,
             title: "School Anniversary Celebration",
-            description: "20 years of excellence in education",
+            description: "25 years of excellence in education",
             imageCount: 38,
-            date: "January 2024",
+            date: "Happened in July 2025",
             featured: true,
             category: "Events",
             icon: Calendar
         },
         {
             id: 6,
-            title: "Cultural Day 2023",
-            description: "Celebrating Uganda's rich cultural heritage",
+            title: "Speech Day",
+            description: "Students delivering inspiring speeches and performances",
             imageCount: 31,
-            date: "November 2023",
+            date: "TBC",
             featured: false,
             category: "Cultural",
             icon: Users
         }
     ];
 
-    const categories = ["All", "Sports", "Academic", "Spiritual", "Events", "Cultural"];
+    const categories = ["All", "Sports", "Academic", "Spiritual", "Events", "Cultural And Social"];
 
     return (
         <div className="min-h-screen">
@@ -240,10 +240,7 @@ export default function Gallery() {
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                     <Button size="lg" className="bg-primary hover:bg-primary-dark">
-                                        Follow on Facebook
-                                    </Button>
-                                    <Button variant="outline" size="lg">
-                                        Subscribe to Newsletter
+                                        Follow on Instagram and TikTok
                                     </Button>
                                 </div>
                             </div>

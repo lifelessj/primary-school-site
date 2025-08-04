@@ -9,9 +9,9 @@ export default function NewsEvents() {
     const newsArticles = [
         {
             id: 1,
-            title: "Outstanding Performance in 2023 PLE Results",
+            title: "Outstanding Performance in 2024 PLE Results",
             excerpt: "We are proud to announce that 95% of our P.7 students passed the Primary Leaving Examinations with flying colors.",
-            date: "2024-01-15",
+            date: "2024-02-15",
             category: "Academic",
             featured: true,
             readTime: "3 min read",
@@ -20,7 +20,7 @@ export default function NewsEvents() {
         {
             id: 2,
             title: "New Computer Laboratory Officially Opened",
-            excerpt: "State-of-the-art computer lab with 30 computers and high-speed internet connection now available for all students.",
+            excerpt: "State-of-the-art computer lab with 40 computers and high-speed internet connection now available for all students.",
             date: "2024-01-10",
             category: "Infrastructure",
             featured: true,
@@ -31,7 +31,7 @@ export default function NewsEvents() {
             id: 3,
             title: "Parent-Teacher Meeting Scheduled for February",
             excerpt: "Join us for our quarterly parent-teacher meeting to discuss your child's progress and academic development.",
-            date: "2024-01-08",
+            date: "TBC",
             category: "Events",
             featured: false,
             readTime: "1 min read",
@@ -43,7 +43,7 @@ export default function NewsEvents() {
         {
             id: 1,
             title: "Annual Sports Day",
-            date: "2024-03-15",
+            date: "TBC",
             time: "9:00 AM - 4:00 PM",
             location: "School Sports Ground",
             description: "Annual athletics competition featuring track and field events, football, netball, and fun activities for all classes.",
@@ -52,18 +52,18 @@ export default function NewsEvents() {
         },
         {
             id: 2,
-            title: "Science Fair 2024",
-            date: "2024-02-28",
+            title: "Exibition of Student Projects",
+            date: "TBC",
             time: "10:00 AM - 2:00 PM",
             location: "School Hall",
-            description: "Students will showcase their innovative science projects and experiments. Parents and guardians are welcome.",
+            description: "Students will showcase their innovative skills and experiments. Parents and guardians are welcome.",
             category: "Academic",
             urgent: true
         },
         {
             id: 3,
             title: "Parent-Teacher Conference",
-            date: "2024-02-20",
+            date: "TBC",
             time: "2:00 PM - 5:00 PM",
             location: "Various Classrooms",
             description: "Individual meetings to discuss student progress, challenges, and development plans.",
@@ -118,7 +118,7 @@ export default function NewsEvents() {
                                         <span className="text-sm text-muted-foreground">3 min read</span>
                                     </div>
                                     <h2 className="text-2xl font-bold text-primary mb-3">
-                                        Outstanding Performance in 2023 PLE Results
+                                        Outstanding Performance in 2024 PLE Results
                                     </h2>
                                     <p className="text-muted-foreground mb-4 leading-relaxed">
                                         We are incredibly proud to announce that 95% of our Primary 7 students passed

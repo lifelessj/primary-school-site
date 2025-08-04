@@ -12,27 +12,26 @@ export default function Academics() {
     ];
 
     const classes = [
-        { level: "P.1", age: "6-7 years", students: "40-45", focus: "Foundation skills, basic literacy and numeracy" },
-        { level: "P.2", age: "7-8 years", students: "40-45", focus: "Building reading and writing skills" },
-        { level: "P.3", age: "8-9 years", students: "40-45", focus: "Intermediate skills development" },
-        { level: "P.4", age: "9-10 years", students: "35-40", focus: "Advanced reading and problem solving" },
-        { level: "P.5", age: "10-11 years", students: "35-40", focus: "Preparation for upper primary" },
-        { level: "P.6", age: "11-12 years", students: "30-35", focus: "Pre-examination preparation" },
-        { level: "P.7", age: "12-13 years", students: "30-35", focus: "PLE examination preparation" }
+        { level: "P.1", age: "6-7 years", students: "35-39", focus: "Foundation skills, basic literacy and numeracy" },
+        { level: "P.2", age: "7-8 years", students: "30-32", focus: "Building reading and writing skills" },
+        { level: "P.3", age: "8-9 years", students: "45-50", focus: "Intermediate skills development" },
+        { level: "P.4", age: "9-10 years", students: "54-59", focus: "Advanced reading and problem solving" },
+        { level: "P.5", age: "10-11 years", students: "54-58", focus: "Preparation for upper primary" },
+        { level: "P.6", age: "11-12 years", students: "59-60", focus: "Pre-examination preparation" },
+        { level: "P.7", age: "12-13 years", students: "62-65", focus: "PLE examination preparation" }
     ];
 
     const schedule = [
-        { time: "7:00 - 7:30 AM", activity: "Assembly & Devotion" },
-        { time: "7:30 - 8:30 AM", activity: "First Lesson" },
-        { time: "8:30 - 9:30 AM", activity: "Second Lesson" },
-        { time: "9:30 - 10:00 AM", activity: "Break Time" },
-        { time: "10:00 - 11:00 AM", activity: "Third Lesson" },
-        { time: "11:00 - 12:00 PM", activity: "Fourth Lesson" },
-        { time: "12:00 - 1:00 PM", activity: "Lunch Break" },
-        { time: "1:00 - 2:00 PM", activity: "Fifth Lesson" },
-        { time: "2:00 - 3:00 PM", activity: "Sixth Lesson" },
-        { time: "3:00 - 4:00 PM", activity: "Co-curricular Activities" },
-        { time: "4:00 - 5:00 PM", activity: "Prep Time / Departure" }
+        { time: "7:00 - 8:30 AM", activity: "First Lesson" },
+        { time: "8:30 - 10:00 AM", activity: "Second Lesson" },
+        { time: "10:00 - 11:00 AM", activity: "Break Time" },
+        { time: "11:00 - 12:00 PM", activity: "Third Lesson" },
+        { time: "12:00 - 1:00 PM", activity: "Fourth Lesson" },
+        { time: "1:00 - 2:00 PM", activity: "Lunch Break" },
+        { time: "2:00 - 3:00 PM", activity: "Fifth Lesson" },
+        { time: "3:00 - 4:00 PM", activity: "Sixth Lesson" },
+        { time: "4:00 - 5:00 PM", activity: "Co-curricular Activities" },
+        { time: "5:00 - 6:00 PM", activity: "General cleaning / Departure" }
     ];
 
     return (
@@ -81,7 +80,7 @@ export default function Academics() {
                             </div>
                             <div className="flex items-center space-x-2">
                                 <Trophy className="h-4 w-4 text-accent" />
-                                <span>Science Club</span>
+                                <span>Sports</span>
                             </div>
                             <div className="flex items-center space-x-2">
                                 <Trophy className="h-4 w-4 text-accent" />
@@ -132,7 +131,7 @@ export default function Academics() {
                         <div>
                             <div className="mb-8">
                                 <Badge className="bg-accent text-accent-foreground mb-4">Schedule</Badge>
-                                <h2 className="text-3xl font-bold text-primary mb-4">Daily Schedule</h2>
+                                <h2 className="text-3xl font-bold text-primary mb-4">Normal Daily Schedule</h2>
                                 <p className="text-lg text-muted-foreground">
                                     Structured day promoting learning, spiritual growth, and character development.
                                 </p>
@@ -209,7 +208,7 @@ export default function Academics() {
                                         </div>
                                         <div>
                                             <div className="font-medium">Term 3: September - December</div>
-                                            <div className="text-sm text-muted-foreground">Final exams and graduation</div>
+                                            <div className="text-sm text-muted-foreground">Final exams and promotion</div>
                                         </div>
                                     </div>
 
